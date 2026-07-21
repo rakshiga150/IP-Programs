@@ -1,0 +1,97 @@
+<html>
+<head>
+ <title>ElectroMart - Order</title>
+</head>
+<body bgcolor="lavender">
+<center>
+<h1>Place Your Order</h1>
+<a href="login.html">Login</a> |
+<a href="home.html">Home</a> |
+<a href="products.html">Products</a> |
+<a href="order.html">Order</a> |
+<a href="contact.html">Contact</a> |
+<a href="login.html">Logout</a>
+<hr>
+</center>
+<h2>Product Price List</h2>
+<table border="1" cellpadding="10">
+<tr bgcolor="skyblue">
+<th>Product</th>
+<th>Price</th>
+<th>Estimated Delivery</th>
+</tr>
+<tr>
+<td>Smartphone</td>
+<td>Rs18,999</td>
+<td>2-4 Days</td>
+</tr>
+<tr>
+<td>Laptop</td>
+<td>Rs59,999</td>
+<td>3-5 Days</td>
+</tr>
+<tr>
+<td>Smart Watch</td>
+<td>Rs4,999</td>
+<td>2 Days</td>
+</tr>
+<tr>
+<td>Bluetooth Speaker</td>
+<td>Rs2,499</td>
+<td>2-3 Days</td>
+</tr>
+<tr>
+<td>Wireless Earbuds</td>
+<td>Rs2,999</td>
+<td>2 Days</td>
+</tr>
+</table>
+<h2>Order Form</h2>
+<form>
+Customer Name:<br>
+<input type="text" placeholder="Enter your name" required>
+<br><br>
+Email:<br>
+<input type="email" placeholder="Enter your email" required>
+<br><br>
+Mobile Number:<br>
+<input type="tel" placeholder="Enter mobile number">
+<br><br>
+Delivery Address:<br>
+<textarea rows="4" cols="35"></textarea>
+<br><br>
+Choose Product:<br>
+<select>
+<option>Smartphone</option>
+<option>Laptop</option>
+<option>Smart Watch</option>
+<option>Bluetooth Speaker</option>
+<option>Wireless Earbuds</option>
+</select>
+<br><br>
+Quantity:<br>
+<input type="number" min="1" max="10">
+<br><br>
+Delivery Date:<br>
+<input type="date">
+<br><br>
+Payment Method:<br>
+<input type="radio" name="payment"> Cash on Delivery
+<br>
+<input type="radio" name="payment"> UPI
+<br>
+<input type="radio" name="payment"> Debit Card
+<br>
+<input type="radio" name="payment"> Credit Card
+<br><br>
+Upload Payment Receipt:<br>
+<input type="file">
+<br><br>
+<input type="submit" value="Confirm Order">
+<input type="reset" value="Cancel">
+</form>
+<center>
+<h3>Thank You for Shopping with ElectroMart!</h3>
+</center>
+</body>
+</html>
