@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Product Details</title>
+<style>
+    /* Universal Selector */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Element Selectors */
+    body {
+        background-color: #f0fff4;
+        background-image: radial-gradient(circle at top right, #d9f7e3 0%, #f0fff4 60%);
+        background-position: top right;
+        background-repeat: no-repeat;
+        color: #222;
+        padding: 20px;
+    }
+
+    h1 {
+        background-color: #1f6f4a;
+        color: #ffffff;
+        border: 3px solid #124a30;
+        border-style: solid;
+        padding: 18px;
+        border-radius: 8px;
+    }
+
+    h2 {
+        color: #1f6f4a;
+        margin: 15px 0;
+    }
+
+    hr {
+        border: 1px solid #b4dfc6;
+        margin: 18px 0;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: #ffffff;
+        border: 2px solid #1f6f4a;
+        margin: 10px 0;
+    }
+
+    td, th {
+        border: 1px solid #b4dfc6;
+        padding: 12px;
+    }
+
+    img {
+        border: 3px solid #cdeedb;
+        border-style: solid;
+        padding: 5px;
+        background-color: #ffffff;
+    }
+
+    ul, ol {
+        margin: 10px 0 10px 30px;
+    }
+
+    iframe {
+        border: 2px solid #1f6f4a;
+        border-style: groove;
+    }
+
+    /* ID Selectors */
+    #product-info {
+        background-color: #eafaf1;
+        border: 2px dashed #1f6f4a;
+        padding: 15px;
+    }
+
+    #site-footer {
+        background-color: #1f6f4a;
+        color: #ffffff;
+        padding: 15px;
+        margin-top: 20px;
+        border-top: 4px solid #ff9800;
+    }
+
+    #site-footer a {
+        color: #ffffff;
+        margin: 0 8px;
+        text-decoration: none;
+    }
+
+    /* Class Selectors */
+    .price-tag {
+        color: #d0021b;
+        font-weight: bold;
+        font-size: 18px;
+    }
+
+    .action-btn {
+        background-color: #ff9800;
+        color: #ffffff;
+        border: none;
+        border-style: none;
+        padding: 10px 18px;
+        margin: 6px 6px 0 0;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .action-btn:hover {
+        background-color: #e68900;
+    }
+
+    .spec-table th {
+        background-color: #1f6f4a;
+        color: #ffffff;
+    }
+</style>
+</head>
+<body>
+<center>
+<h1>Online Shopping System</h1>
+<h2>Product Details</h2>
+</center>
+<hr>
+<table>
+<tr>
+<td align="center" width="30%">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0lgKa0OvPJjNEI1NWDNzJBR9hGxP224k2bL9t-mKVVQ&s" width="200" height="200">
+</td>
+<td id="product-info">
+<h2>Apple iPhone 15</h2>
+<p class="price-tag">Price : ₹79,900</p>
+<p><b>Availability :</b> In Stock</p>
+<p>Latest Apple Smartphone with A16 Bionic Processor.</p>
+<a href="cart.html">
+<button class="action-btn">Add to Cart</button>
+</a>
+<a href="cart.html">
+<button class="action-btn">Buy Now</button>
+</a>
+</td>
+</tr>
+</table>
+<hr>
+<h2>Product Features</h2>
+<ul>
+<li>6.1 Inch Display</li>
+<li>48 MP Camera</li>
+<li>128 GB Storage</li>
+<li>Fast Charging</li>
+<li>1 Year Warranty</li>
+</ul>
+<hr>
+<h2>Specifications</h2>
+<table class="spec-table">
+<tr>
+<th>Feature</th>
+<th>Details</th>
+</tr>
+<tr>
+<td>Brand</td>
+<td>Apple</td>
+</tr>
+<tr>
+<td>Model</td>
+<td>iPhone 15</td>
+</tr>
+<tr>
+<td>RAM</td>
+<td>6 GB</td>
+</tr>
+<tr>
+<td>Storage</td>
+<td>128 GB</td>
+</tr>
+<tr>
+<td>Camera</td>
+<td>48 MP</td>
+</tr>
+<tr>
+<td>Battery</td>
+<td>3349 mAh</td>
+</tr>
+</table>
+<hr>
+<h2>Product Review Videos</h2>
+<table>
+<tr>
+<td>
+<h3>iPhone 15 Review</h3>
+<iframe
+width="350"
+height="200"
+src="https://www.youtube.com/watch?v=5NMxHh0BMAk"
+allowfullscreen>
+</iframe>
+</td>
+<td>
+<h3>Samsung Galaxy S24 Review</h3>
+<iframe
+width="350"
+height="200"
+src="https://www.youtube.com/embed/R3YdM0wO5kM"
+allowfullscreen>
+</iframe>
+</td>
+</tr>
+</table>
+<hr>
+<h2>Customer Reviews</h2>
+<ol>
+<li>Excellent Camera Quality</li>
+<li>Fast Performance</li>
+<li>Good Battery Backup</li>
+</ol>
+<hr>
+<center>
+<div id="site-footer">
+<a href="index.html">Home</a> |
+<a href="login.html">Login</a> |
+<a href="register.html">Register</a> |
+<a href="cart.html">Cart</a>
+<p>© 2026 Online Shopping System</p>
+</div>
+</center>
+</body>
+</html>

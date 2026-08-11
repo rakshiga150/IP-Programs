@@ -1,0 +1,172 @@
+<html>
+<head>
+<title>Shopping Cart</title>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial;
+    }
+
+    body {
+        background-color: lightblue;
+        background-image: linear-gradient(135deg, #ffe9d1 0%, #fff8f0 250px);
+        background-position: top left;
+        background-repeat: no-repeat;
+        color: #123;
+        padding: 20px;
+    }
+
+    h1 {
+        background-color:black;
+        color: red;
+        border: 3px solid #7a3712;
+        border-style: solid;
+        padding: 18px;
+        border-radius: 8px;
+    }
+
+    h2 {
+        color: black;
+        margin: 15px 0;
+    }
+
+    h3 {
+        color: black;
+        margin: 12px 0 8px 0;
+    }
+
+    table {
+        width: 80%;
+        border-collapse: collapse;
+        margin: 15px auto;
+        background-color:lightblue;
+        border: 2px solid #b5541e;
+    }
+
+    th {
+        background-color: #b5541e;
+        color: #ffffff;
+        padding: 12px;
+    }
+
+    td {
+        border: 1px solid #f0d3b8;
+        padding: 12px;
+        text-align: center;
+    }
+
+    ul {
+        display: inline-block;
+        text-align: left;
+        margin: 10px auto;
+    }
+
+    #payment-box {
+        background-color: #fff0e0;
+        border: 2px dashed #b5541e;
+        padding: 20px;
+        width: 50%;
+        margin: 15px auto;
+    }
+
+    #thank-you {
+        padding: 12px;
+        border-radius: 6px;
+        margin: 15px auto;
+        width: 40%;
+    }
+
+    #site-footer {
+        margin-top: 10px;
+    }
+
+    #site-footer a {
+        color: #b5541e;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0 8px;
+    }
+
+    .place-order-btn {
+        background-color: #4caf50;
+        color: #ffffff;
+        border: none;
+        border-style: none;
+        padding: 10px 18px;
+        margin-top: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .clear-btn {
+        background-color: #cccccc;
+        color: #222;
+        border: none;
+        padding: 10px 18px;
+        margin-top: 10px;
+        margin-left: 8px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .features-box {
+        background-color: #ffffff;
+        border: 1px solid #f0d3b8;
+        border-style: groove;
+        padding: 15px;
+        width: 40%;
+        margin: 15px auto;
+    }
+</style>
+</head>
+<body>
+<center>
+<h1>Online Shopping System</h1>
+<h2>Shopping Cart</h2>
+<table>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Quantity</th>
+</tr>
+<tr>
+<td>iPhone 15</td>
+<td>₹85000</td>
+<td>1</td>
+</tr>
+<tr>
+<td>HP Laptop</td>
+<td>₹72000</td>
+<td>1</td>
+</tr>
+</table>
+<h3>Payment Method</h3>
+<form>
+<input type="radio" name="pay"> Cash on Delivery <br><br>
+<input type="radio" name="pay"> UPI <br><br>
+<input type="radio" name="pay"> Debit Card <br><br>
+<input type="submit" value="Place Order" class="place-order-btn">
+<input type="reset" value="Clear" class="clear-btn">
+</form>
+<h3>Shopping Features</h3>
+<div class="features-box">
+<ul>
+<li>Free Delivery Charge</li>
+<li>Easy Return</li>
+<li>Secure Payment</li>
+</ul>
+</div>
+<div id="site-footer">
+<a href="index.html">Home</a> |
+<a href="login.html">Login</a> |
+<a href="register.html">Register</a>
+</div>
+<br>
+<div id="thank-you">
+<p><b>Thank You for Shopping!!</b></p>
+</div>
+</center>
+</body>
+</html>
